@@ -4,4 +4,4 @@
 # Information
  My first serious bootstrap 4 website.
 
- *Theme:* Gamers personal website  
+ <b>Theme:</b> Gamers personal website  
