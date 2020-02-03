@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Jan Kubat</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+  		<meta name="description" content="Personal Web">
+  		<meta name="keywords" content="Personal, Web Dev, networking, coding, programmer">
+  		<meta name="author" content="Jan Kubat">
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+		<link rel="shortcut icon" href="css/img/favicon.ico" type="image/x-icon">
+	</head>
+
+	<body>
+		<!--Navigation-->
+		<nav class="navbar navbar-expand-md navbar-light">		
+			<a href="#" class="navbar-brand" >
+				<img src="css/img/brand.png" width="30" height="30"  alt="Brand">
+			</a>
+
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="collapsibleNavbar">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+						<a href="#me" class="nav-link navScroll">Me</a>
+					</li>
+					<li class="nav-item">
+						<a href="#work" class="nav-link navScroll">My Work</a>
+					</li>			
+					<li class="nav-item">
+						<a href="#contact" class="nav-link navScroll">Contact</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+		
+		<!--Main Image-->
+		<img src="css/img/fullhdMain.png" class="img-fluid"> 
+
+		<!--Me-->
+		<div class="container-fluid mb-5 mt-5" id="me">
+			<div class="card-group">
+				<div class="card bg-muted">
+				    <div class="card-body text-center">
+				    	<img style="width: 50%;" class="card-img-top" src="css/img/webDev.svg" alt="Card image">
+				      	<h2 class="card-text">Web Dev</h2>
+				      	<p class="card-text">I value nice looking websites, that work well</p>
+				      	<br>
+				      	<h3 class="card-text">Things I enjoy</h3>
+				      	<p class="card-text">Personal websites, Company websites and more...</p>
+				    </div>
+				</div>
+
+				<div class="card bg-muted">
+				    <div class="card-body text-center">
+				    	<img style="width: 50%;" class="card-img-top" src="css/img/code.svg" alt="Card image">
+				      	<h2 class="card-text">Coder</h2>
+				      	<p class="card-text">I like to code things precisely, clean code, comments, and functionality</p>
+				      	<br>
+				      	<h3 class="card-text">Things I enjoy</h3>
+				      	<p class="card-text">Desktop Apps, Games, Microprocessors and so on</p>
+				    </div>
+				</div>
+
+				<div class="card bg-muted">
+				    <div class="card-body text-center">
+				    	<img style="width: 50%;" class="card-img-top" src="css/img/me.png" alt="Card image">
+				      	<h2 class="card-text">Me</h2>
+				      	<p class="card-text">IT Student, I always learn and improve my skills, despite my laziness</p>
+				      	<br>
+				      	<h3 class="card-text">Things I enjoy</h3>
+				      	<p class="card-text">Tech, Cars, Moto and Sport</p>
+				    </div>
+				</div>
+			</div>
+		</div>
+
+		<!--My work-->
+		<div class="container-fluid mb-5 mt-5 text-center" id="work">
+			<h1>My Work</h1>
+		</div>
+
+		<div class="container-fluid">
+			<div class="row pt-4">
+				<div class="col">
+					<div class="card card-hover h-100">
+					    <a href="https://github.com/jankubatt" target="_blank" class="card-link"><img class="card-img" src="css/img/work01.png" alt="Card image"></a>
+					</div>
+				</div>
+
+				<div class="col">
+					<div class="card card-hover h-100">
+					    <a href="myFirstWeb/index.html" target="_blank" class="card-link"><img class="card-img" src="css/img/work02.png" alt="Card image"></a>
+					</div>
+				</div>
+			</div>
+		</div>
+			
+		<div id="contact">
+			<a href="mailto:jankubat.1@seznam.cz"><img src="css/img/footer.png" class="img-fluid mt-5">	</a>
+		</div>
+
+		<!-- Nav script -->
+		<script>
+			$(document).ready(function(){$('body').scrollspy({target: ".navScroll"});});
+			$('.navScroll').click(function(){var sectionTo = $(this).attr('href');
+			$('html, body').animate({scrollTop: $(sectionTo).offset().top}, 1000);});
+		</script>			
+	</body>
+</html>
