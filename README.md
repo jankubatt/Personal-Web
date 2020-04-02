@@ -2,8 +2,8 @@
  Personal website created with Bootstrap. It is my portfolio as well.
 
 # Information
- My first serious bootstrap 4 website.
- <b>Theme:</b> Personal web with portfolio
+ My first serious bootstrap 4 website.<br>
+ <b>Theme:</b> Personal web with portfolio<br>
  It took 1 month with procrastination. 
 
 # What I Learned
