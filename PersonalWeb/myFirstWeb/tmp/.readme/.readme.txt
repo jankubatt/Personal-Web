@@ -1,1 +1,0 @@
-Tento adresar je nastaven jako TEMP adresar vasi prezentace. Pokud budete vyuzivat funkci PHP pro upload souboru, budou soubory ukladany do tohoto adresare.
