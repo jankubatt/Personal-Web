@@ -8,7 +8,7 @@
   		<meta name="keywords" content="Jan Kubat personal web resume github coding programming">
   		<meta name="author" content="Jan Kubat">
   		<meta name="google-site-verification" content="ol5pb2TMh_LWWmwAYoJGQBlV3nguv2m3c2FTb5KRSfc" />
-		<link rel="stylesheet" href="css/bootstrap.css">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 		<script src="https://use.fontawesome.com/3dd62599ec.js"></script>
@@ -17,7 +17,7 @@
 
 	<body>
 		<!--Navigation-->
-		<nav class="navbar navbar-expand-md navbar-light fixed-top bg-light">		
+		<nav class="navbar navbar-expand-md navbar-light fixed-top bg-light">
 			<a href="#" class="navbar-brand navScroll" >
 				<img src="css/img/brand.png" width="30" height="30"  alt="Brand">
 			</a>
@@ -33,19 +33,22 @@
 					</li>
 					<li class="nav-item">
 						<a href="#work" class="nav-link navScroll">My Work</a>
-					</li>			
+					</li>
+					<li class="nav-item">
+						<a href="gallery.html" class="nav-link">Gallery</a>
+					</li>
 					<li class="nav-item">
 						<a href="#contact" class="nav-link navScroll">Contact</a>
 					</li>
 				</ul>
 			</div>
 		</nav>
-		
+
 		<div style="height: 100px;"></div>
 
 		<!--Main Image-->
 		<img src="css/img/fullhdMain.png" style="width: 100%;" alt="Responsive image">
-		
+
 
 		<div id="me" style="height: 200px;"></div>
 
@@ -115,7 +118,7 @@
 				</div>
 			</div>
 		</div>
-			
+
 		<div id="contact" style="height: 200px;"></div>
 		<footer class="py-5 bg-dark">
 		    <div class="container text-white text-center">
@@ -135,6 +138,6 @@
 			$(document).ready(function(){$('body').scrollspy({target: ".navScroll"});});
 			$('.navScroll').click(function(){var sectionTo = $(this).attr('href');
 			$('html, body').animate({scrollTop: $(sectionTo).offset().top}, 1000);});
-		</script>			
+		</script>
 	</body>
 </html>
