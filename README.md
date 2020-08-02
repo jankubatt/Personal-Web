@@ -5,7 +5,7 @@
  My first serious bootstrap 4 website.<br>
  <b>Theme:</b> Personal web with portfolio<br>
  It took 1 month with procrastination.<br>
- https://tarva.cz/
+ https://jankubat-it.cz/
 
 # What I Learned
 - Basics of Bootstrap 4
